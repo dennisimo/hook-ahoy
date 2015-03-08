@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Andy Dennis",
+    "url": "http://dennisimo.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/dennisimo/hook/issues"
+  },
+  "description": "Connect to apps near you.",
+  "homepage": "https://github.com/dennisimo/hook",
+  "keywords": [
+    "ahoy",
+    "app",
+    "client",
+    "connection",
+    "frigate",
+    "hook",
+    "local",
+    "LAN",
+    "network",
+    "pairing",
+    "server"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://dennisimo.mit-license.org"
+  },
+  "main": "index.js",
+  "name": "hook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dennisimo/hook.git"
+  },
+  "version": "0.0.0"
+}

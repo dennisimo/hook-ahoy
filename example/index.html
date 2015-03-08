@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hook</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width" />
+    </head>
+    <body>
+        <form id="the-form">
+            <input id="the-input"
+                autocapitalize="off"
+                autocomplete="off"
+                autocorrect="off"
+                autofocus
+                maxlength="6"
+                placeholder="Enter your passcode"
+            />
+        </form>
+        <script src="../index.js"></script>
+        <script>
+            hook.listen('#the-form')
+        </script>
+    </body>
+</html>
