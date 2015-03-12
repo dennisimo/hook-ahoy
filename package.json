@@ -29,7 +29,7 @@
     "url": "http://dennisimo.mit-license.org"
   },
   "main": "index.js",
-  "name": "hook",
+  "name": "hook-ahoy",
   "repository": {
     "type": "git",
     "url": "https://github.com/dennisimo/hook.git"
