@@ -1,6 +1,7 @@
 hook = function() {
     var $ = document.querySelector.bind(document),
-        cipher = ['E','R','T','Y','U','I','D','F','G','H','J','X','C','V','B','N']
+        cipher = ['E','R','T','Y','U','I','D','F','G','H','J','X','C','V','B','N'],
+        input = undefined
 
     return {
         listen: listen
