@@ -4,10 +4,10 @@
     "url": "http://dennisimo.com/"
   },
   "bugs": {
-    "url": "https://github.com/dennisimo/hook/issues"
+    "url": "https://github.com/dennisimo/hook-ahoy/issues"
   },
   "description": "Connect to apps near you.",
-  "homepage": "https://github.com/dennisimo/hook",
+  "homepage": "https://github.com/dennisimo/hook-ahoy",
   "keywords": [
     "ahoy",
     "app",
@@ -32,7 +32,7 @@
   "name": "hook-ahoy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dennisimo/hook.git"
+    "url": "https://github.com/dennisimo/hook-ahoy.git"
   },
   "version": "1.0.0"
 }
