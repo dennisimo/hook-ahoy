@@ -2,6 +2,8 @@
 
 Connect to apps near you.
 
+**Proper README coming soon!** Apologies for the delay.
+
 ## What the... ?
 
 Hook makes it easy to connect to apps over your local network. You don't need to know any IP addresses, ports or URLs; you simply type in a 4 to 6 letter passcode and you're connected directly to the app.
