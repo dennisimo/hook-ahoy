@@ -10,6 +10,7 @@ In order to work, you just need:
 
 - A network running IPv4 (Hook doesnt work with IPv6)
 - An [Ahoy](https://npmjs.com/package/ahoy)-enabled server (to generate your passcode)
+- An `ahoy.json` file for sharing connection info
 
 ## Example
 
