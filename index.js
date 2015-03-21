@@ -1,4 +1,4 @@
-var hook = function () {
+var hook = (function () {
   var $ = document.querySelector.bind(document)
   var cipher = ['E', 'R', 'T', 'Y', 'U', 'I', 'D', 'F', 'G', 'H', 'J', 'X', 'C', 'V', 'B', 'N']
   var input
@@ -84,6 +84,4 @@ var hook = function () {
     }
   }
 
-}
-
-hook()
+})()
