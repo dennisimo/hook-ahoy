@@ -11,7 +11,6 @@ var hook = (function () {
     var url = 'http://' + ipAddress
     var helperUrl = url + ':1941/ahoy.json'
     var request = new XMLHttpRequest()
-
     request.open('POST', helperUrl, true)
     request.onload = function () {
       if (this.status === 200) {
@@ -32,7 +31,6 @@ var hook = (function () {
     var index = 0
     var ipAddress = ''
     var prefix = '10'
-
     if (passcode.length % 2) {
       var char0 = passcode.charAt(0)
       if (cipher.indexOf(char0) > -1) {
@@ -64,7 +62,6 @@ var hook = (function () {
 
   function listen (formId, inputId) {
     var inputSelector = inputId || formId + ' input'
-
     input = $(inputSelector)
     $(formId).addEventListener('submit', function (e) {
       e.preventDefault()
@@ -83,5 +80,4 @@ var hook = (function () {
       decode(input.value.toUpperCase())
     }
   }
-
 })()
