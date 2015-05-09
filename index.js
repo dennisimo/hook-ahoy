@@ -49,7 +49,7 @@ var hook = (function () {
       if (cipher.indexOf(firstCharacter) > -1 && cipher.indexOf(secondCharacter) > -1) {
         var firstValue = cipher.indexOf(firstCharacter.toString(16))
         var secondValue = cipher.indexOf(secondCharacter.toString(16))
-        ipAddress += '.' + parseInt(firstValue + secondValue, 16).toString()
+        ipAddress += '.' + parseInt(firstValue + secondValue, 10).toString()
       } else {
         setInput()
         return false
